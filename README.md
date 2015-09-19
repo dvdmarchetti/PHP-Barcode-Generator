@@ -78,6 +78,7 @@ Example:
 $filename = $barcode->save();
 ?>
 <img src="<?php echo $filename; ?>">
+```
 
 #Documentation
 PHPBarcode has a lot of options and customization, but the documentation it's still a work in progress.
