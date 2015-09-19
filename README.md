@@ -6,6 +6,11 @@ Welcome to PHPBarcode generator. This is a PHP class which helps in barcode gene
 It offers some barcode formats and options to suit your needs.
 Read through this documentation file to find out how to install and use the class.
 
+###Author note
+This project is based on [php-barcode](http://github.org/davidscotttufts/php-barcode) project by David Tufts. The original implementation has been made by him.
+My implementation it's still a work in progress and may present errors.
+Contributions, issues and questions are always welcome.
+
 ---
 
 #Getting Started
@@ -73,3 +78,6 @@ Example:
 $filename = $barcode->save();
 ?>
 <img src="<?php echo $filename; ?>">
+
+#Documentation
+PHPBarcode has a lot of options and customization, but the documentation it's still a work in progress.
