@@ -1,0 +1,22 @@
+{
+    "name": "dvdmarchetti/phpbarcode",
+    "type": "library",
+    "description": "Barcodes in PHP made easy",
+    "keywords": ["barcode", "generator"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Davide Marchetti",
+            "email": "dvdmarchetti663@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPBarcode\\": "src/PHPBarcode/"
+        }
+    }
+}
