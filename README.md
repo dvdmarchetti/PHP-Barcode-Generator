@@ -1,26 +1,26 @@
 # PHP Barcode Generator
 Barcode generation made easy
 
-###Introduction
+### Introduction
 Welcome to PHPBarcode generator. This is a PHP class which helps in barcode generation.
 It offers some barcode formats and options to suit your needs.
 Read through this documentation file to find out how to install and use the class.
 
-###Author note
+### Author note
 This project is based on [php-barcode](http://github.org/davidscotttufts/php-barcode) project by David Tufts. The original implementation has been made by him.
 My implementation it's still a work in progress and may present errors.
 Contributions, issues and questions are always welcome.
 
 ---
 
-#Getting Started
-###Installation
+# Getting Started
+### Installation
 You may install the PHPBarcode Generator with <a href="https://getcomposer.org/" target="_blank">Composer</a>.
 ```
 $ composer require dvdmarchetti/phpbarcode
 ```
 
-###Basic Usage
+### Basic Usage
 First you have to include the composer-generated autoload file.
 ```php
 <?php require 'vendor/autoload.php'; ?>
@@ -40,7 +40,7 @@ $barcode->output();
 
 This will output the image directly in your browser (displayed inline).
 
-###Output options
+### Output options
 There are three ways of displaying barcodes:
 
 **1. Inline Display**
@@ -80,5 +80,5 @@ $filename = $barcode->save();
 <img src="<?php echo $filename; ?>">
 ```
 
-#Documentation
+# Documentation
 PHPBarcode has a lot of options and customization, but the documentation it's still a work in progress.
